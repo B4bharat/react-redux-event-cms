@@ -3,12 +3,12 @@ import React, { Component } from "react";
 class AddEvent extends Component {
   render() {
     return (
-      <form class="ui form">
-        <h4 class="ui dividing header">Add Event</h4>
+      <form className="ui form">
+        <h4 className="ui dividing header">Add Event</h4>
         {/* Event Name */}
-        <div class="field">
+        <div className="field">
           <label for="event_name">Name</label>
-          <div class="field">
+          <div className="field">
             <input
               type="text"
               id="event_name"
@@ -18,9 +18,9 @@ class AddEvent extends Component {
           </div>
         </div>
         {/* Speaker */}
-        <div class="field">
+        <div className="field">
           <label for="event_speaker">Speaker Name</label>
-          <div class="field">
+          <div className="field">
             <input
               type="text"
               id="event_speaker"
@@ -30,9 +30,9 @@ class AddEvent extends Component {
           </div>
         </div>
         {/* Event Category */}
-        <div class="field">
+        <div className="field">
           <label for="event_category">Category</label>
-          <div class="field">
+          <div className="field">
             <input
               type="text"
               id="event_category"
