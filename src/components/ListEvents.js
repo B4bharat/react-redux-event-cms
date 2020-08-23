@@ -8,7 +8,7 @@ const ListEvents = () => {
 const mapStateToProps = (store) => {
   console.log(store);
 
-  return store.events;
+  return { events: store.events };
 };
 
 export default connect(mapStateToProps)(ListEvents);
